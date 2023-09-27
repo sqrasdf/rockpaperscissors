@@ -4,17 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
 </head>
 <body>
-    <button onclick="clickedRock()">rock</button>
-    <button onclick="clickedPaper()">paper</button>
-    <button onclick="clickedScissors()">scissors</button>
-    <p id="computerMove">computer plays</p>
-    <p id="score">score</p>
-    <p id="roundResult">result</p>
-    <p id="gameResult">game result</p>
-    
+    <div class="text">Choose your move</div>
+    <br> <br>
+    <div id="container">
+        <img id="rock" src="r.png">
+        <img id="paper" src="p.png">
+        <img id="scissors" src="s.png">
+    </div>
+    <br> <br>
+    <div class="text" id="computerMove">Computer's move:</div>
+    <br> <br>
+    <div class="text" id="roundResult">nobody wins this round</div>
+    <br> <br>
+    <div class="text" id="score">Score 0:0</div>
+    <br> <br>
+    <div class="text" id="gameResult"></div>
 </body>
-<script src="index.js"></script>
+
 </html>

@@ -1,0 +1,19 @@
+img {
+    width: 100px;
+}
+
+#container {
+    /* height: 10000px; */
+    display: flex;
+    /* background-color: pink; */
+    align-items: center;
+    /* align-content: center; */
+    justify-content: center;
+    gap: 50px;
+}
+
+.text { 
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
